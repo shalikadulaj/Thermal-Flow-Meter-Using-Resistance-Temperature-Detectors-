@@ -30,6 +30,27 @@ When the cross-sectional area of the pipe is known, the average velocity can be 
 
 To measure the ethanol flow rate, a thermal transport flowmeter is used. This device detects the rate of heat dissipation in a flowing medium and is particularly effective for measuring very low flow rates.
 
-In this project a heater is placed between two temperature sensors. As the flow increases, the downstream sensor records a higher temperature compared to the upstream sensor. When gets the individual responses of the sensors, they are nonlinear. But the average temperature is quite linear.
+In this project, a heater is placed between two temperature sensors. As the flow increases, the downstream sensor records a higher temperature compared to the upstream sensor. When the individual responses of the sensors, they are nonlinear. But the average temperature is quite linear.
 
 To measure the temperature RTDs (resistance temperature detectors) are used. The RTD sensor increases linearly with rising temperature. Since an RTD is a passive device and doesn't generate a signal on its own. Because of that a signal conditioner circuit is designed.
+
+### II. COMSOL MODEL
+
+
+A reference COMSOL Multiphysics model of a Thermo anemometer is provided, and the objective is to optimize it according to specified requirements.
+
+Figure 1 Geometry of the optimized COMSOL model
+``
+
+![Geometry of the optimized COMSOL model](https://github.com/shalikadulaj/Thermal-Flow-Meter-Using-Resistance-Temperature-Detectors-/assets/58818511/8de5f9ba-0175-4af8-9213-bfb500a99bd7)
+
+
+```
+The model consists of a solid pipe representing the flow path for the Ethanol. On the right side of the pipe, there are two sensors with a heater in between. Temperature sensors are represented by upper and lower square and heater is represented by the middle square. Ethanol flows downward, with the inlet at the top and the outlet at the bottom. The upper sensor serves as a reference, while the lower sensor is affected by the heater.
+```
+```
+Table 1 Parameters used in the model
+```
+
+
+```
