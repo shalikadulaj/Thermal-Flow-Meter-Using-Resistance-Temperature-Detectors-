@@ -39,12 +39,12 @@ To measure the temperature RTDs (resistance temperature detectors) are used. The
 A reference COMSOL Multiphysics model of a Thermo anemometer is provided, and the objective is to optimize it according to specified requirements.
 
 
-```
+
 ![Geometry of the optimized COMSOL model](https://github.com/shalikadulaj/Thermal-Flow-Meter-Using-Resistance-Temperature-Detectors-/assets/58818511/c71c3fce-afd0-463f-bf09-100fa6229ada)
 
 
 
-```
+
 Figure 1 Geometry of the optimized COMSOL model
 
 The model consists of a solid pipe representing the flow path for the Ethanol. On the right side of the pipe, there are two sensors with a heater in between. Temperature sensors are represented by the upper and lower squares and the heater is represented by the middle square. Ethanol flows downward, with the inlet at the top and the outlet at the bottom. The upper sensor serves as a reference, while the lower sensor is affected by the heater.
