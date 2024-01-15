@@ -32,14 +32,17 @@ When the cross-sectional area of the pipe is known, the average velocity can be 
 
 A reference COMSOL Multiphysics model of a Thermo anemometer is provided, and the objective is to optimize it according to specified requirements.
 
+<figure>
+  <![Geometry of the optimized COMSOL model](https://github.com/shalikadulaj/Thermal-Flow-Meter-Using-Resistance-Temperature-Detectors-/assets/58818511/c71c3fce-afd0-463f-bf09-100fa6229ada)>
+  <figcaption>Figure 1 Geometry of the optimized COMSOL model</figcaption>
+</figure>
 
 
-![Geometry of the optimized COMSOL model](https://github.com/shalikadulaj/Thermal-Flow-Meter-Using-Resistance-Temperature-Detectors-/assets/58818511/c71c3fce-afd0-463f-bf09-100fa6229ada)
 
 
 
 
-Figure 1 Geometry of the optimized COMSOL model
+
 
 The model consists of a solid pipe representing the flow path for the Ethanol. On the right side of the pipe, there are two sensors with a heater in between. Temperature sensors are represented by the upper and lower squares and the heater is represented by the middle square. Ethanol flows downward, with the inlet at the top and the outlet at the bottom. The upper sensor serves as a reference, while the lower sensor is affected by the heater.
 
@@ -71,17 +74,14 @@ Table 2 Given specifications
 
 
 
-The maximum velocity is determined based on the maximum
-flow rate (0.5 μl/s) in specifications.
+The maximum velocity is determined based on the maximum flow rate (0.5 μl/s) in specifications.
 
 Maximum velocity:
 
 ```
 Vmax =(0. 5 mm^3 /s)/6 mm^2 = 0. 0833 mm/s
 ```
-This study focuses on ethanol as a liquid. Key parameters are viscosity (1.2 mPa*s) and density (0.789 g/ml) at 25 degrees Celsius.
-
-Temperature limits for ethanol are its melting and boiling points. Simulation yields sensor temperatures at various velocities, subsequently converted to resistances.
+This study focuses on ethanol as a liquid. Key parameters are viscosity (1.2 mPa*s) and density (0.789 g/ml) at 25 degrees Celsius. Temperature limits for ethanol are its melting and boiling points. Simulation yields sensor temperatures at various velocities, subsequently converted to resistances.
 
 ### III. SIMULATION RESULTS
 
@@ -202,9 +202,7 @@ Table 3 Resistance Values
 
 ### V. SIGNAL CONDITIONER CIRCUIT
 
-The requirement is the ADC input voltage range 0 - 1V. According to the sensor specifications maximum current through the sensor is 0.5 mA.
-
-The below figures show the circuit for the downstream sensor and the reference sensor with the minimum and maximum resistors.
+The requirement is the ADC input voltage range 0 - 1V. According to the sensor specifications maximum current through the sensor is 0.5 mA. The below figures show the circuit for the downstream sensor and the reference sensor with the minimum and maximum resistors.
 
 
 ![Referance  Min](https://github.com/shalikadulaj/Thermal-Flow-Meter-Using-Resistance-Temperature-Detectors-/assets/58818511/c2e8ed5f-1edc-4ea9-8b67-864acab3853c)
