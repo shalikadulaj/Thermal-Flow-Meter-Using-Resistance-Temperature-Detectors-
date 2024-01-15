@@ -34,9 +34,9 @@ A reference COMSOL Multiphysics model of a Thermo anemometer is provided, and th
 
 
   ![Geometry of the optimized COMSOL model](https://github.com/shalikadulaj/Thermal-Flow-Meter-Using-Resistance-Temperature-Detectors-/assets/58818511/c71c3fce-afd0-463f-bf09-100fa6229ada)
-  <figcaption>Figure 1 Geometry of the optimized COMSOL model</figcaption>
 
 
+Figure 1 Geometry of the optimized COMSOL model
 
 
 
