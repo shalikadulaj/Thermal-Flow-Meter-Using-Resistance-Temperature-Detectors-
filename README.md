@@ -1,6 +1,6 @@
 # Thermal Flow Meter Using Resistance Temperature Detectors
 
-## Electronic Sensors 521124S- 3006
+
 
 **_Abstract – The project aimed to develop and optimize the parameters to reach the desired level of nonlinearity, a COMSOL model of a thermal flow meter for ethanol. Analog-to-digital converter and voltage amplifier were designed to convert sensor signals to voltage._**
 
