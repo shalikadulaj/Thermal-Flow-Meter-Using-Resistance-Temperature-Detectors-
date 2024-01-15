@@ -176,10 +176,7 @@ Nonlinearity:
 ```
  
 
-According to the specifications maximum allowed nonlinearity is 5%. It is achieved. Optimization involved decreasing heater power to prevent ethanol temperature from reaching the boiling point and slightly adjusting the distances of the sensors from the heater. To minimize the nonlinearity
-
-
-at minimal flow was achieved by placing sensors at equal distances from the heater.
+According to the specifications maximum allowed nonlinearity is 5%. It is achieved. Optimization involved decreasing heater power to prevent ethanol temperature from reaching the boiling point and slightly adjusting the distances of the sensors from the heater. To minimize the nonlinearity at minimal flow was achieved by placing sensors at equal distances from the heater.
 
 ### IV. RTD SENSOR
 
